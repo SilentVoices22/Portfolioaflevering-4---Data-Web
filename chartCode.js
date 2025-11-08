@@ -1,10 +1,11 @@
 const ctx = document.querySelector('#chart').getContext('2d');
-const chart = new Chart(ctx, {
+
+const chartForMonths = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['Januar', 'Februar', 'Marts', 'April', 'Maj', 'Juni','Juli','August', 'September','Oktober', 'November','December'],
         datasets: [{
-            data: [12, 19, 3, 5, 2, 3],
+            data: [34,33,35,33,35,35,35,35,33,35,34,35],
         }]
     }
 });
