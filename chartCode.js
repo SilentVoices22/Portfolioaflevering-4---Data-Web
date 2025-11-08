@@ -4,7 +4,7 @@ const chart = new Chart(ctx, {
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
-            data: [12, 19, 3, 5, 2, 3],
+            data: [12, 1, 3, 5, 2, 3],
         }]
     }
 });
