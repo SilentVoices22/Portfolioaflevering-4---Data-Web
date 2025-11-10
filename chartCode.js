@@ -23,3 +23,16 @@ const chartForGenres = new Chart(ctx2, {
         }]
     }
 });
+
+const ctx2 = document.querySelector('#chart2').getContext('2d');
+
+const chartForGenres = new Chart(ctx2, {
+    type: 'bar',
+    data: {
+        labels: ['Rock', 'Latin', 'Reggae', 'Metal', 'Alternative & Punk', 'Soundtrack','Classical','Pop', 'Blues','R&B/Soul', 'Hiphop/Rap','World', "Sci Fi & Fantasy"],
+        datasets: [{
+            label: 'Most seeling genre of music in brazil',
+            data: [691,502,83,74,71,55,39,36,31,31,30,27,27,8],
+        }]
+    }
+});
