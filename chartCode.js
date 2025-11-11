@@ -22,3 +22,18 @@ const chartForGenres = new Chart(ctx2, {
         }]
     }
 });
+
+
+
+
+
+
+// fetching invoice.json
+fetch('invoice.json')
+    .then(response => response.json())
+    .then(yesOrNoData => {
+        console.log(yesOrNoData);
+    });
+
+
+
