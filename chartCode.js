@@ -54,16 +54,4 @@ const chartForArtists = new Chart(ctx3, {
 
 
 
-// fetching invoice.json
-
-const url = ["album.json","artist.json","customer.json","genre.json","invoice.json","invoiceline.json","track.json"]
-const invoiceData = "invoice.json";
-
-fetch(invoiceData)
-    .then(response => response.json())
-    .then(Data => {
-        console.log(Data);
-    });
-
-
 
