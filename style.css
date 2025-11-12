@@ -82,6 +82,12 @@ footer {
     width: 100%;
 }
 
+header img{
+    height: 100px;
+    width: 100px;
+}
+
+/* TIL TELEFON  */
 @media (max-width: 900px) {
     h1 {
         font-size: 2.2rem;
