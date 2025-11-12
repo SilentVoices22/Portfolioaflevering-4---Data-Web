@@ -1,0 +1,21 @@
+html{
+    background-color: #222222;
+}
+
+.chartBox{
+    width: 500px;
+}
+
+.query2{
+    width: 500px;
+}
+
+h1{
+    color: lawngreen;
+}
+
+section{
+    display: flex;
+    background-color: gray;
+    margin: 5%;
+}
