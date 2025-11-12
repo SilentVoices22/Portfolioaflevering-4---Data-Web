@@ -76,3 +76,55 @@ footer {
     left: 0;
     width: 100%;
 }
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+        margin: 5%;
+    }
+
+    .chartBox,
+    .query2 {
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+    p {
+        width: 90%;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .chartBox,
+    .query2 {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+}
