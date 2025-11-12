@@ -5,3 +5,7 @@
 .query2{
     width: 500px;
 }
+
+section{
+    display: flex;
+}
