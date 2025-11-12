@@ -7,7 +7,8 @@ const chartForMonths = new Chart(ctx, {
         datasets: [{
                label: 'Årlig invoice per måned',
             data: [34,33,35,33,35,35,35,35,33,35,34,35],
-            fill: true, 
+            fill: true,
+            borderColor: 'lawngreen'
         }]
     }, options: {
     scales: {
@@ -29,7 +30,7 @@ const chartForGenres = new Chart(ctx2, {
         labels: ['Rock', 'Latin', 'Reggae', 'Metal', 'Alternative & Punk', 'Soundtrack','Classical','Pop', 'Blues','R&B/Soul', 'Hiphop/Rap','World', "Sci Fi & Fantasy"],
         datasets: [{
             data: [691,502,83,74,71,55,39,36,31,31,30,27,27,8],
-            
+
         }]
     }
 });
