@@ -29,10 +29,14 @@ const chartForGenres = new Chart(ctx2, {
 
 
 // fetching invoice.json
-fetch('invoice.json')
+
+const url = ["album.json","artist.json","customer.json","genre.json","invoice.json","invoiceline.json","track.json"]
+const invoiceData = "invoice.json";
+
+fetch(invoiceData)
     .then(response => response.json())
-    .then(yesOrNoData => {
-        console.log(yesOrNoData);
+    .then(Data => {
+        console.log(Data);
     });
 
 
