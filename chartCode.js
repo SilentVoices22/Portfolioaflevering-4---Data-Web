@@ -31,7 +31,8 @@ const chartForGenres = new Chart(ctx2, {
         datasets: [{
             label: 'Popularitet for genre i Brasillien',
             data: [691,502,83,74,71,55,39,36,31,31,30,27,27,8],
-
+            backgroundColor: 'lawngreen',
+            borderColor: 'lawngreen'
         }]
     }
 });
@@ -47,7 +48,9 @@ const chartForArtists = new Chart(ctx3, {
         labels: ['Iron Maiden','U2','Lost','Led Zeppelin','Metallica','Deep Purple','Pearl Jam','Lenny Kravitz','Van Halen','The Office','Various Artists','Red Hot Chili Peppers','Faith No More','Foo Fighters','Titãs','Os Paralamas Do Sucesso','Queen','The Rolling Stones','Eric Clapton','Heroes'],
         datasets: [{
             label: 'Hvilke kunstere tjener flest penge?',
-            data: [1233.54,895.59,833.70,620.73,599.94,550.44,408.87,372.51,336.82,328.80,318.78,299.97,296.01,270.27,269.75,265.32,256.41,249.48,241.56,238.61]
+            data: [1233.54,895.59,833.70,620.73,599.94,550.44,408.87,372.51,336.82,328.80,318.78,299.97,296.01,270.27,269.75,265.32,256.41,249.48,241.56,238.61],
+            backgroundColor: 'lawngreen',
+            borderColor: 'lawngreen'
         }]
     }
 });
