@@ -49,3 +49,31 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.navBar {
+    text-decoration: none;
+    background-color: #333333;
+    font-family:  sans-serif;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topBar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topBar li button {
+    background-color: #3c3c3c;
+    border-radius: 5px;
+    padding: 10px; 
+    width: 90px;
+
+}
+
+
