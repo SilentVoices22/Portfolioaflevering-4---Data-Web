@@ -5,3 +5,16 @@
 .query2{
     width: 500px;
 }
+
+
+.navBar{
+    background-color: rgb(0, 35, 102) ;
+   
+    
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
