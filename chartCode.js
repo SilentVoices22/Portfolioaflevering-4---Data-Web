@@ -37,6 +37,18 @@ const chartForGenres = new Chart(ctx2, {
 
 
 
+const ctx3 = document.querySelector('#chart3').getContext('2d');
+
+const chartForArtists = new Chart(ctx3, {
+    type: 'bar',
+    data: {
+        labels: ['Iron Maiden','U2','Lost','Led Zeppelin','Metallica','Deep Purple','Pearl Jam','Lenny Kravitz','Van Halen','The Office','Various Artists','Red Hot Chili Peppers','Faith No More','Foo Fighters','Titãs','Os Paralamas Do Sucesso','Queen','The Rolling Stones','Eric Clapton','Heroes'],
+        datasets: [{
+            data: [1233.54,895.59,833.70,620.73,599.94,550.44,408.87,372.51,336.82,328.80,318.78,299.97,296.01,270.27,269.75,265.32,256.41,249.48,241.56,238.61]
+        }]
+    }
+});
+
 
 
 // fetching invoice.json
