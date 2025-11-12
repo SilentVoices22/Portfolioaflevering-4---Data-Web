@@ -17,7 +17,6 @@ h1 {
 
 section {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     background-color: #2b2b2b;
     margin: 3%;
