@@ -12,7 +12,10 @@ h1 {
     color: #9ef01a;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: "Numans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 section {
@@ -53,4 +56,10 @@ a:hover {
 p{
     width: 600px;
     font-size: large;
+
+    font-family: "Stack Sans Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
 }
