@@ -1,4 +1,4 @@
-const ctx = document.querySelector('#chart1').getContext('2d');
+const ctx = document.querySelector('#chart').getContext('2d');
 
 const chartForMonths = new Chart(ctx, {
     type: 'bar',
