@@ -27,7 +27,7 @@ section {
 
 .chartBox,
 .query2 {
-    width: 480px;
+    width: 500px;
     background-color: #333333;
     border-radius: 15px;
     padding: 1.2rem;
@@ -48,4 +48,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+p{
+    width: 600px;
+    font-size: large;
 }
